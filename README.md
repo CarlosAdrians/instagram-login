@@ -1,2 +1,7 @@
-# instagram-login
-Treinando HTML e CSS puro construindo a tela de login do instagram
+# Instagram Login Clone
+
+Projeto desenvolvido para praticar HTML e CSS recriando a página inicial do Instagram.
+
+## Tecnologias
+- HTML
+- CSS
