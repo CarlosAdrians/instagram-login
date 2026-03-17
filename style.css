@@ -234,6 +234,11 @@ body{
             color: #ffffff85;
             border: none;
             font-size: 17px;
+            outline: none;
+            option{
+                background-color: #ffffff;
+                color: #000000;
+            }
         }
 
         p{
