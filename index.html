@@ -14,21 +14,35 @@
             <div class="logo-instagram">
                 <img src="imagens/instagram.png" alt="Isntagram">
             </div>
-            <div class="titulo">
-                <h1>Veja momentos do dia a dia dos seus amigos proximos.</h1>
+            <div class="titulo-container-esquerda">
+                <h1>Veja momentos do dia a dia dos <span>seus amigos proximos</span>.</h1>
             </div>
-            <div class="imagem">
+            <div class="imagem-container-esquerda">
                 <img src="https://static.cdninstagram.com/rsrc.php/yR/r/92ZsVHNkyvf.webp" alt="">
             </div>
         </div>
 
         <div class="container-direita">
-            <h3>Entrar no instagram</h3>
-            <form action="">
-                <input type="text" placeholder="Telefone, nome de usuário ou email">
-                <input type="password" placeholder="Senha">
-                <button type="submit">Entrar</button>
-                <a href="#">Esqueceu a senha?</a>
+            <div class="titulo-formulario">
+                <h3>Entrar no instagram</h3>
+            </div>
+
+            <form action="" class="formulario">
+                <div class="input-container">
+                    <input type="text" placeholder="Número de celular, nome de usuário ou email">
+                </div>
+
+                <div class="input-container">
+                    <input type="password" placeholder="Senha">
+                </div>
+
+                <button class="botao" id="botao-entrar" type="submit">
+                    Entrar
+                </button>
+
+                <div class="esqueci-senha">
+                    <a href="#">Esqueceu a senha?</a>
+                </div>
             </form>
 
             <button class="botao" id="botao-facebook">
@@ -47,7 +61,10 @@
                 <p>Meta</p>
             </div>
         </div>
-
+        
+    </div>
+    
+    <footer>
         <div class="footer">
             <div class="links">
                 <li><a href="#">Meta</a></li>
@@ -64,15 +81,18 @@
                 <li><a href="#">Upload de contatos e não usuários</a></li>
                 <li><a href="#">Meta Verified</a></li>
             </div>
-            
-            <select class="selecionar-idioma">
-                <option>Português (Brasil)</option>
-                <option>Inglês</option>
-                <option>Espanhol</option>
-            </select>
-
-            <p>© 2026 Instagram from Meta</p>
+                
+            <div class="idioma-e-copyright">
+    
+                <select class="selecionar-idioma">
+                    <option>Português (Brasil)</option>
+                    <option>Inglês</option>
+                    <option>Espanhol</option>
+                </select>
+        
+                <p>© 2026 Instagram from Meta</p>
+            </div>
         </div>
-
+    </footer>
 </body>
 </html>

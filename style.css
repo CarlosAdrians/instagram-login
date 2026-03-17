@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #0C1014;
+    margin: 0;
+    padding: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.instagram-container{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    height: 90vh;
+}
+.container-esquerda{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    .logo-instagram{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        img{
+            width: 5rem;
+            height: 5rem;
+        }
+    }
+
+    .titulo-container-esquerda{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 5rem 0 5rem;
+        h1{
+            text-align: center;
+            font-size: 4rem;
+            font-weight: 400;
+        }
+    }
+
+
+    .imagem-container-esquerda{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img{
+            width: 60rem;
+            height: 30rem;
+        }
+    }
+
+}
+
+.container-direita{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .links{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .idioma-e-copyright{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+}
